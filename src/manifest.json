@@ -1,12 +1,12 @@
 {
-  "name": "Ionic",
-  "short_name": "Ionic",
+  "name": "Caça ao Tesouro - Brasília",
+  "short_name": "Caça ao Tesouro",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
-    "src": "assets/imgs/logo.png",
-    "sizes": "512x512",
-    "type": "image/png"
+    "src": "assets/imgs/logo.jpg",
+    "sizes": "240x240",
+    "type": "image/jpeg"
   }],
   "background_color": "#4e8ef7",
   "theme_color": "#4e8ef7"

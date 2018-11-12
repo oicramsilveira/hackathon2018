@@ -10,6 +10,9 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { NivelFacilPage } from '../pages/nivel-facil/nivel-facil';
+import { NivelIntermediarioPage } from '../pages/nivel-intermediario/nivel-intermediario';
+import { NivelAvancadoPage } from '../pages/nivel-avancado/nivel-avancado';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    NivelFacilPage,
+    NivelIntermediarioPage,
+    NivelAvancadoPage,
   ],
   imports: [
     BrowserModule,
@@ -29,7 +35,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    NivelFacilPage,
+    NivelIntermediarioPage,
+    NivelAvancadoPage
   ],
   providers: [
     StatusBar,
