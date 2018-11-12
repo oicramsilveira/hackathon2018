@@ -1,5 +1,7 @@
 {
   "name": "hackaixa2018",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
